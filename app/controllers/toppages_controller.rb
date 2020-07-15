@@ -6,7 +6,4 @@ class ToppagesController < ApplicationController
     end
   end
     
-  def favorite?(other_micropost)
-   self.favorites.include?(other_micropost)
-  end
 end
